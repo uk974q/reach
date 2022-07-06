@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reach/static/css/main.a0bba5a2.css",
+    "main.js": "/reach/static/js/main.8e2a4955.js",
+    "static/js/787.03a7de1c.chunk.js": "/reach/static/js/787.03a7de1c.chunk.js",
+    "index.html": "/reach/index.html",
+    "main.a0bba5a2.css.map": "/reach/static/css/main.a0bba5a2.css.map",
+    "main.8e2a4955.js.map": "/reach/static/js/main.8e2a4955.js.map",
+    "787.03a7de1c.chunk.js.map": "/reach/static/js/787.03a7de1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0bba5a2.css",
+    "static/js/main.8e2a4955.js"
+  ]
+}
