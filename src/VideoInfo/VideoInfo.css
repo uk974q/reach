@@ -1,0 +1,32 @@
+.video-player-info{
+    border: 5px dotted black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+.card-title{
+    text-shadow: 1px 2px 2px black;
+    color: red;
+}
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-inline: 20px;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+}
+.right-section{
+
+}
+.svg-container{   
+    width:80%;
+    height:110px;
+    border:3px solid black 
+}
