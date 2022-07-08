@@ -9,9 +9,19 @@ export default function VideoInfo(props){
             <h1 className='card-title'>Frame Information</h1>
             <div className='card-section'>
                 <div className='left-section'>
-                    <h3>Frame Number : {frameNumber}</h3>
-                    <h3>Bounding Box :</h3>
-                    <h3>Histogram : {histogram}</h3>
+                    <div className='label-section'>
+                        <div>Frame Number : </div>
+                        <div> {frameNumber}</div>
+                    </div>
+                    <div className='label-section'>
+                        <div>Bounding Box : </div>
+                        <div> {frameNumber}</div>
+                    </div>
+                    <div className='label-section'>
+                        <div>Histogram : </div>
+                        <div> {histogram}</div>
+                    </div>
+
                 </div>
                 <div className='right-section'>
                     <svg className="svg-container">

@@ -11,10 +11,11 @@
 }
 
 .canvas{ 
-    position:relative; 
+    /* position:relative;  */
+    display: flex;
     width:400px; 
     height:240px; 
-    align-items: center;
+    justify-content: center;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -22,12 +23,13 @@
 
 }
 .video-container{ 
-    position:absolute; 
-    width:100%; 
+    /* position:absolute;  */
+    /* padding-inline: 20px; */
+    width:90%; 
     height:100%; 
-    z-index:1; 
-    top:0;
-    left:0;
+    /* z-index:1;  */
+    /* top:0; */
+    /* left:0; */
     border-radius: 10px;
 }
 /* .svg-container{  */
@@ -52,4 +54,9 @@
 }
 .d-none{
     display: none;
+}
+@media screen and (max-width: 1366px) {
+    .tracker-svg-container{
+        width: 90%;
+    }
 }

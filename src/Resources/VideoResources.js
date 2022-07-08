@@ -47,7 +47,7 @@ export default function VideoResources(props){
             let frameCount = Math.round(count)
             // console.log("Frame no",frameCount)
             setFrameNumber(frameCount)
-            setHistogram(jsonData["frame_data"][frameCount].histDiff)
+            setHistogram(+(jsonData["frame_data"][frameCount].histDiff).toFixed(3))
             let r = jsonData["frame_data"][frameCount]["avgR"]
             let g = jsonData["frame_data"][frameCount]["avgG"]
             let b = jsonData["frame_data"][frameCount]["avgB"]
@@ -87,7 +87,7 @@ export default function VideoResources(props){
 
     return(
       <div className='video-player-details-page'>
-        {!loadSpinner && 
+        {!loadSpinner &&  
           <div className='video-section'>
             <div className='canvas'>
               <video className="video-container" controls width="250" id="video">
