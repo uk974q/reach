@@ -2,7 +2,7 @@
   "name": "reach",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uk974q.github.io/reach/",
+  "homepage": "https://uk974q.github.io/reach",
   "proxy": "https://frontend-test-2022-bucket.s3.eu-west-2.amazonaws.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
