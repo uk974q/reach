@@ -15,37 +15,30 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    padding-inline: 20px;
+    padding-inline: 1.25rem;
 }
 .left-section{
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin-right: 20px;
-
-    /* justify-content: flex-start;
-    align-items: flex-start; */
+    margin-right: 1.25rem;
 }
 .label-section{
     display: flex;
     justify-content: space-between;
     width: 100%;
  }
-.right-section{
-
-}
 .svg-container{   
     width:80%;
-    height:110px;
+    height:6.875rem;
     border:3px solid black 
 }
-
 @media screen and (max-width: 1366px) {
     .video-player-info{
         width: 90%;
     }
     .card-title{
-        font-size: 16px;
+        font-size: 1rem;
     }
     .card-section {
          flex-wrap: wrap;
@@ -53,7 +46,7 @@
          justify-content: center;
      }
      .left-section{
-        margin: 10px 0;
+        margin: 0.625rem 0;
         width: 80%;
         align-self: center;
      }

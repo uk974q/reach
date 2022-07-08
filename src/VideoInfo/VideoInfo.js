@@ -3,7 +3,6 @@ export default function VideoInfo(props){
     let frameNumber = props.frameNumber
     let histogram = props.histogram
     let rgbValue = props.rgbValue
-    
     return(
         <div className='video-player-info'>
             <h1 className='card-title'>Frame Information</h1>
